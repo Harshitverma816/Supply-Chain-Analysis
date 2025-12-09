@@ -157,7 +157,8 @@ Prerequisites
 - Power BI or your chosen BI tool
 
 - Required Python libraries:
-    pip install pandas numpy matplotlib seaborn mysql-connector-python
+
+  pip install pandas numpy matplotlib seaborn mysql-connector-python
 
 Steps
 
