@@ -3,6 +3,7 @@
 End-to-End Data Analytics Project | Python · SQL · Power BI
 
 🔍 **Business Problem**
+
 Supply chain inefficiencies directly impact costs, delivery performance, and customer satisfaction.
 Organizations often struggle with:
 - Excess inventory locking working capital
@@ -83,7 +84,9 @@ Designed for Supply Chain Managers, Operations Leads, and Inventory Planners.
 
 └── README.md
 
+
 🚀 **Why This Project Matters**
+
 This project demonstrates the ability to:
 - Translate raw data into business insights
 - Work across Python, SQL, and BI tools
