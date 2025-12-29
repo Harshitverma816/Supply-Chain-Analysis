@@ -10,6 +10,7 @@ Organizations often struggle with:
 - Stockouts caused by poor demand alignment
 - Delivery delays due to logistics bottlenecks
 - Lack of visibility into supplier and inventory performance
+
 This project analyzes supply chain operations to identify inefficiencies, uncover bottlenecks, and enable data-driven operational decisions.
 
 🎯 **Project Objectives**
@@ -62,6 +63,7 @@ The Power BI dashboard provides:
 - Inventory health and stock movement tracking
 - Logistics and delivery performance analysis
 - KPI monitoring for operational decision-making
+
 Designed for Supply Chain Managers, Operations Leads, and Inventory Planners.
 
 🧠 **Business Decisions Enabled**
@@ -91,6 +93,7 @@ This project demonstrates the ability to:
 - Translate raw data into business insights
 - Work across Python, SQL, and BI tools
 - Communicate findings in a decision-focused manner
+
 It reflects real-world data analyst responsibilities, not just tool usage.
 
 📬 **Contact**
