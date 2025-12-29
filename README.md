@@ -1,188 +1,99 @@
-📦 Supply Chain & Inventory Analytics
-Python • SQL • Power BI Dashboard
-
-🚀 Project Overview
-This project demonstrates a complete data analytics workflow, starting from loading and exploring a dataset in Python to generating insights, building SQL queries, and designing a final dashboard and presentation.
-The goal is to show strong analytical thinking, technical skills, and the ability to turn raw data into actionable insights.
-
-The project includes:
-
-- Loading and exploring the dataset
-
-- Conducting EDA and cleaning the data
-
-- Running SQL queries on MySQL Server
-
-- Building an interactive dashboard
-
-- Creating a written report
-
-- Preparing a presentation for stakeholders
-
-📂 Dataset
-The dataset contains operational and performance metrics relevant to the business problem.
-It includes fields such as:
-
-- Product or customer details
-
-- Sales or transaction data
-
-- Dates, categories, and numerical metrics
-
-- Operational KPIs such as cost, time, or performance indicators
-
-The dataset is loaded into Python for exploration and stored in MySQL for querying.
-
-🛠 Tools & Technologies
-Category	                                    Tools
-Programming & Analysis	                      Python (Pandas, NumPy, Matplotlib, Seaborn)
-Database	                                    MySQL Server
-Visualization	                                Power BI
-Report  	                                    Word
-Presentation	                                PowerPoint
-Version Control	                              GitHub
-
-🧮 Project Steps
-Step 1: Load Dataset in Python
-
-- Imported the dataset using Pandas
-
-- Reviewed data types, structure, and completeness
-
-- Identified missing values and inconsistencies
-
-Step 2: Data Cleaning
-
-- Handled missing values
-
-- Removed duplicates
-
-- Fixed inconsistent formatting
-
-- Engineered new metrics
-
-Step 3: Exploratory Data Analysis (EDA)
-
-- Summary statistics
-
-- Data distribution checks
-
-- Correlation analysis
-
-- Visualizations for trends and patterns
-
-Step 4: SQL Analysis
-
-Using MySQL Server:
-
-- Imported the cleaned dataset into MySQL
-
-- Created tables and relationships
-
-- Wrote analytical queries for filtering, grouping, joining, and aggregation
-
-- Generated insights that support dashboard creation
-
-Step 5: Dashboard Creation
-
-Designed an interactive dashboard with key insights:
-
-- KPIs
-
-- Charts and tables
-
-- Filters for deeper exploration
-
-- Visual storytelling to highlight trends and outliers
-
-Step 6: Report Writing
-
-A professional report was created summarizing:
-
-- Business problem
-
-- Approach
-
-- Key findings
-
-- Insights from Python, SQL, and the dashboard
-
-- Recommendations
-
-Step 7: Presentation (PPT)
-
-Created a stakeholder-friendly PowerPoint including:
-
-- Project objective
-
-= Methods
-
-- Visual highlights from the dashboard
-
-- Final conclusions and business recommendations
-
-📊 5. Dashboard Highlights
-The final dashboard provides:
-
-- Quick KPI overview
-
-- Trend analysis
-
-- Category-wise comparisons
-
-- Drill-down capabilities
-
-- Clear insight into performance drivers
-
-This allows decision-makers to easily monitor progress and identify improvement areas.
-
-✅ 6. Results & Key Insights
-Some of the insights generated through the analysis include:
-
-- Patterns and trends uncovered through EDA
-
-- SQL-driven insights about relationships and performance
-
-- Dashboard visuals that highlight significant opportunities and risks
-
-- Recommendations that guide data-backed decision making
-
-▶️ How to Run the Project
-Prerequisites
-
-- Python 3.x
-
-- MySQL Server installed
-
-- Power BI or your chosen BI tool
-
-- Required Python libraries:
-
-  pip install pandas numpy matplotlib seaborn mysql-connector-python
-
-Steps
-
-1. Clone the repository:
-
-  git clone https://github.com/Harshitverma816/supply-chain-analysis.git 
-  cd supply-chain-analysis
-
-2. Open the Python notebook and run the EDA and data cleaning steps.
-
-3. Import the cleaned dataset into MySQL.
-
-4. Run the SQL scripts to generate analytical outputs.
-
-5. Open the Power BI file and refresh the data source.
-
-6. Review the final report and presentation.
-
-⭐ Author
-
-Harshit Verma 
-
-Data Analyst | Python | SQL | Power BI
-
-LinkedIn: Harshit Verma 
-
-Github: Harshitverma816
+📦 **Supply Chain & Inventory Performance Analysis**
+
+End-to-End Data Analytics Project | Python · SQL · Power BI
+
+🔍 **Business Problem**
+Supply chain inefficiencies directly impact costs, delivery performance, and customer satisfaction.
+Organizations often struggle with:
+- Excess inventory locking working capital
+- Stockouts caused by poor demand alignment
+- Delivery delays due to logistics bottlenecks
+- Lack of visibility into supplier and inventory performance
+This project analyzes supply chain operations to identify inefficiencies, uncover bottlenecks, and enable data-driven operational decisions.
+
+🎯 **Project Objectives**
+- Evaluate inventory health and stock movement
+- Identify logistics delays and delivery performance gaps
+- Analyze supplier and product-level performance
+- Build an executive-ready dashboard for decision-makers
+
+❓ **Key Business Questions Answered**
+- Where is inventory overstocked or underutilized?
+- Which products are slow-moving and tying up capital?
+- Which regions or routes experience frequent delivery delays?
+- How efficient is overall supply chain performance?
+- What actions can improve inventory turnover and logistics efficiency?
+
+🛠️ **Tools & Technologies**
+- **Python** – Data cleaning, transformation, and exploratory data analysis
+- **SQL (MySQL)** – Structured querying and KPI analysis
+- **Power BI** – Interactive dashboards and performance tracking
+- **CSV** – Raw data storage
+- **PowerPoint / Report** – Business insights and storytelling
+
+🔄 **Analytical Workflow**
+1. Data Cleaning & EDA (Python)
+   - Handled missing values and inconsistencies
+   - Created derived metrics for inventory and logistics analysis
+   - Identified patterns, trends, and anomalies
+2. SQL Analysis
+   - Designed queries to calculate KPIs
+   - Analyzed inventory levels, delivery performance, and stock movement  
+3. Dashboard Development (Power BI)
+   - Built interactive, multi-page dashboards
+   - Focused on inventory health, logistics efficiency, and performance KPIs
+
+📊 **Key Insights**
+- Inventory levels are misaligned with sales velocity, indicating capital lock-in
+- Several SKUs consistently show low movement but high stock levels
+- Delivery delays are concentrated in specific regions, pointing to logistics bottlenecks
+- Inventory availability does not always translate to faster fulfillment
+These issues directly impact operational efficiency and cost optimization.
+
+💡 **Business Recommendations**
+- Optimize inventory replenishment using sales velocity and demand patterns
+- Reduce overstocking of slow-moving products to free working capital
+- Improve logistics planning in high-delay regions
+- Monitor inventory health KPIs regularly to prevent inefficiencies
+
+📈 **Dashboard Overview**
+The Power BI dashboard provides:
+- Inventory health and stock movement tracking
+- Logistics and delivery performance analysis
+- KPI monitoring for operational decision-making
+Designed for Supply Chain Managers, Operations Leads, and Inventory Planners.
+
+🧠 **Business Decisions Enabled**
+- Inventory optimization and stock prioritization
+- Identification of logistics bottlenecks
+- Supplier and product-level performance evaluation
+- Data-driven replenishment and fulfillment planning
+
+📂 **Repository Structure**
+
+├── data/                 # Raw and cleaned datasets
+
+├── notebooks/            # Python EDA and data cleaning
+
+├── sql/                  # SQL queries for analysis
+
+├── dashboard/            # Power BI dashboard file
+
+├── report/               # Business report and presentation
+
+└── README.md
+
+🚀 **Why This Project Matters**
+This project demonstrates the ability to:
+- Translate raw data into business insights
+- Work across Python, SQL, and BI tools
+- Communicate findings in a decision-focused manner
+It reflects real-world data analyst responsibilities, not just tool usage.
+
+📬 **Contact**
+
+**Email** : Harsh692002@gmail.com
+
+**LinkedIn** : [Harshit Verma](https://www.linkedin.com/in/harshit-verma-468b94398)
+
+**GitHub** : https://github.com/Harshitverma816
