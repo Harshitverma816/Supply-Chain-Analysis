@@ -2,6 +2,44 @@
 
 End-to-End Data Analytics Project | Python · SQL · Power BI
 
+📌 **Executive Summary**
+
+**Business Objective**
+
+The objective of this analysis was to evaluate supply chain and inventory performance to identify inefficiencies impacting working capital, delivery reliability, and operational efficiency. The goal was to provide leadership with clear, actionable insights to optimize inventory management and logistics operations.
+
+**Key Problems Identified**
+1. **Inventory Capital Lock-In**
+   Inventory levels are not aligned with sales velocity, resulting in excess stock tied up in slow-moving products.
+2. **Inefficient Stock Movement**
+   Multiple SKUs show consistently low movement despite high availability, indicating poor demand forecasting and replenishment planning.
+3. **Logistics Performance Gaps**
+   Delivery delays are concentrated in specific regions, pointing to route inefficiencies and operational bottlenecks rather than isolated incidents.
+
+**Analytical Approach**
+- Cleaned and explored supply chain data using Python to identify patterns and anomalies
+- Performed KPI analysis using SQL to quantify inventory and logistics performance
+- Built an interactive Power BI dashboard to enable ongoing monitoring and decision-making
+
+**Key Insights**
+- Excess inventory is reducing operational agility and increasing carrying costs
+- Inventory availability does not consistently translate into faster fulfillment
+- Logistics delays are systematic in certain regions and require targeted intervention
+
+**Business Recommendations**
+- Rebalance inventory using demand-driven replenishment strategies
+- Reduce overstocking of slow-moving SKUs to free working capital
+- Redesign logistics planning for high-delay regions
+- Track inventory health and delivery KPIs through a centralized dashboard
+
+**Business Impact**
+
+If implemented, these recommendations can:
+- Improve inventory turnover
+- Reduce holding and logistics costs
+- Increase delivery reliability
+- Enable proactive, data-driven supply chain decisions
+
 🔍 **Business Problem**
 
 Supply chain inefficiencies directly impact costs, delivery performance, and customer satisfaction.
